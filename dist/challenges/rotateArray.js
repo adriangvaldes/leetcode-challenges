@@ -6,5 +6,4 @@ function rotate(nums, k) {
         const lastNumber = nums.pop();
         nums.unshift(lastNumber);
     }
-    console.log(nums);
 }

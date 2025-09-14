@@ -1,3 +1,5 @@
-import { rotate } from "./challenges/rotateArray";
+import { containsDuplicate } from "./challenges/containsDuplicate";
 
-rotate([1, 2, 3, 4, 5, 6, 7], 2);
+const answer = containsDuplicate([0, 4, 5, 0, 3, 6]);
+
+console.log("Answer", answer);

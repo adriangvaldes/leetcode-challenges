@@ -1,4 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const rotateArray_1 = require("./challenges/rotateArray");
-(0, rotateArray_1.rotate)([1, 2, 3, 4, 5, 6, 7], 2);
+const containsDuplicate_1 = require("./challenges/containsDuplicate");
+const answer = (0, containsDuplicate_1.containsDuplicate)([0, 4, 5, 0, 3, 6]);
+console.log("Answer", answer);
