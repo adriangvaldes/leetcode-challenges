@@ -1,3 +1,3 @@
-import { removeDuplicates } from "./challenges/removeDuplicates";
+import { rotate } from "./challenges/rotateArray";
 
-removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]);
+rotate([1, 2, 3, 4, 5, 6, 7], 2);
