@@ -11,6 +11,5 @@ function containsDuplicate(nums) {
             map.set(number, number);
         }
     }
-    console.log(map);
     return false;
 }
