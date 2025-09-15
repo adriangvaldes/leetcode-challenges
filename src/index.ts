@@ -1,5 +1,5 @@
-import { intersectionArrays } from "./challenges/intersectionArray";
+import { reverseString } from "./challenges/reverseString";
 
-const answer = intersectionArrays([0, 4, 4, 4, 5, 0, 3, 6], [0, 4, 7, 8, 9, 6]);
+const answer = reverseString(["a", "d", "r", "i", "a", "n"]);
 
 console.log("Answer", answer);
